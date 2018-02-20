@@ -1,0 +1,89 @@
+.navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      background-color: #1C2841;
+      color: #FFF;
+      padding: 1% 0;
+      font-size: 1.2em;
+      border: 0;
+  }
+
+  .navbar-brand {
+      float: left;
+      min-height: 55px;
+      padding: 0 15px 5px;
+  }
+
+  .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover 
+  {
+      color: #FFF;
+      background-color: #1C2841;
+  }
+
+  .navbar-inverse .navbar-nav li a {
+      color: #D5D5D5;
+  }
+
+  .carousel-caption {
+      text-align: center;
+      top: 5%;
+      bottom: initial;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+
+  .carousel-inner img {
+      width: 100%;
+  }
+
+  .btn {
+      font-size: 18px;
+      color: #FFF;
+      padding: 12px 22px;
+      background: #1C2841;
+      border: 2px solid #FFF;
+  }
+
+  .container {
+      margin: 4% auto;
+  }
+
+  #icon {
+      max-width: 200px;
+      margin: 1% auto;
+  }
+
+  footer {
+      width: 100%;
+      background-color: #1C2841;
+      padding: 3%;
+      color: white;
+  }
+
+  footer a {
+      padding: 15px;
+      font-size: 25px;
+      color: #FFF;
+  }
+
+ footer a {
+      color: #D5D5D5;
+      text-decoration: none;
+  }
+
+  @media (max-width: 900px) {
+      footer a {
+         font-size: 20px;
+         padding: 10px;
+     }
+   }
+
+  @media (max-width: 600px) {
+
+
+      #icon {
+         max-width: 150px;
+      }
+      h4 {
+         font-size: 1.7em;
+      }
+  }
